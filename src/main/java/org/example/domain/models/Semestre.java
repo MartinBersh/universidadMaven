@@ -1,2 +1,4 @@
-package org.example.domain.models;public enum Semestre {
+package org.example.domain.models;
+
+public enum Semestre {
 }
