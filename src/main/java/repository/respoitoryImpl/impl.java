@@ -22,16 +22,17 @@ public class impl {
         return estudiante;
 }
     public List<Estudiante> list() {
-        List<Estudiante> productoList = new ArrayList<>();
+        List<Estudiante> estudianteList = new ArrayList<>();
         try (Statement statement = getConnection().createStatement();
-             ResultSet resultSet = statement.executeQuery("SELECT *
-                     from estudiante")) {
-while (resultSet.next())) {
-            Estudiante estudiante = createEstudiante(resultSet);
-            productoList.add(estudiante);
+             ResultSet resultSet = statement.executeQuery("SELECT * from estudiante")) {
+            while (resultSet.next()) {
+                Estudiante estudiante = createProduct(resultSet);
+                estudianteList.add(estudiante);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-    } catch (SQLException e) {
-        e.printStackTrace();
+        return estudianteList;
     }
-    return estudianteList;
+}
 

@@ -11,11 +11,13 @@ public class ConexionDB {
         private static String user = "root";
         private static String password = "admin";
         private static Connection connection;
+
         public static Connection getInstance() throws SQLException {
-            if(connection==null){
+            if (connection == null) {
                 connection =
-                        DriverManager.getConnection(url,user,password);
+                        DriverManager.getConnection(url, user, password);
             }
             return connection;
         }
+    }
 }

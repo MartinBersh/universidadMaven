@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc2e1fc-be7e-4151-8861-52d4b61e0ccc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conexion/ConexionDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Estudiantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Materias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Notas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Profesores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/models/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/models/Semestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Respitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/respoitoryImpl/impl.java" afterDir="false" />
+    <list default="true" id="3fc2e1fc-be7e-4151-8861-52d4b61e0ccc" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/conexion/ConexionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/conexion/ConexionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/respoitoryImpl/impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/respoitoryImpl/impl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +67,23 @@
       <updated>1692186963240</updated>
       <workItem from="1692186965093" duration="316000" />
       <workItem from="1692191278135" duration="2002000" />
-      <workItem from="1692193583111" duration="1143000" />
+      <workItem from="1692193583111" duration="2500000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1692195000769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692195000769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
