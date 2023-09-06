@@ -5,22 +5,24 @@ import java.sql.*;
 
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/test";
+        String url = "jdbc:mysql://localhost:3306/universidad";
         String user = "root";
-        String password = "admin";
+        String password = "";
         try (Connection conn = DriverManager.getConnection(url, user,
                 password);
              Statement statement = conn.createStatement();
-             ResultSet resultSet = statement.executeQuery("SELECT * FROM productos");
+             ResultSet resultSet = statement.executeQuery("SELECT * FROM docentes");
         ) {
+            System.out.println("docentes: ");
             while (resultSet.next()) {
-                System.out.print(resultSet.getInt("id"));
-                System.out.print("|");
+
+                System.out.print("id: "+resultSet.getInt("id"));
+                System.out.print("\n");
                 System.out.print(resultSet.getString("nombre"));
-                System.out.print("|");
-                System.out.print(resultSet.getDouble("precio"));
-                System.out.print("|");
-                System.out.print(resultSet.getDate("fecha_registro"));
+                System.out.print("\n");
+                System.out.print(resultSet.getString("correo"));
+                System.out.print("\n");
+
             }
         } catch (SQLException e) {
             e.printStackTrace();
