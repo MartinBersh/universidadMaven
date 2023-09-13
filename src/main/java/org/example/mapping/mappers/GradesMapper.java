@@ -10,7 +10,6 @@ public class GradesMapper {
         return new GradesDto(source.getId_Grades(),
                 source.getStudent(),
                 source.getSubject(),
-                source.getSemester(),
                 source.getCorte());
     }
 
@@ -18,7 +17,6 @@ public class GradesMapper {
         return new Grades(source.id_Grades(),
                 source.student(),
                 source.subject(),
-                source.semester(),
                 source.corte());
     }
 

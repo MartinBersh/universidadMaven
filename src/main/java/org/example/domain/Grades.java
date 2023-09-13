@@ -13,7 +13,6 @@ public class Grades {
     private Long id_Grades;
     private Student student;
     private Subject subject;
-    private double semester;
     private String corte;
 
 }

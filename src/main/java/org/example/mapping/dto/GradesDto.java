@@ -6,7 +6,6 @@ import org.example.domain.Subject;
 public record GradesDto(Long id_Grades,
                         Student student,
                         Subject subject,
-                        double semester,
                         String corte){
 
 }
