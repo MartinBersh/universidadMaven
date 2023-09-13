@@ -23,7 +23,7 @@ public class GradesRepositoryImp implements Repository<GradesDto> {
     private Grades buildObject(ResultSet resultSet) throws
             SQLException {
         Grades grades = new Grades();
-        grades.setId_Grades(resultSet.getLong("id"));
+        grades.setId_Grades(resultSet.getLong("id_grades"));
         grades.setSemester(resultSet.getDouble("semester"));
         grades.setCorte(resultSet.getString("corte"));
 
