@@ -34,7 +34,8 @@ public class SubjectRepositoryImp implements Repository<SubjectDto> {
     public List<SubjectDto> list() {
         List<Subject> SubjectList = new ArrayList<>();
         try (Statement statement = getConnection().createStatement();
-             ResultSet resultSet = statement.executeQuery("SELECT * from subject")) {
+             ResultSet resultSet = statement.executeQuery("SELECT subject.name, teachers.name, teachers.email " +
+                     "FROM subject INNER JOIN teachers on subject.id_teacher=teachers.id_teacher;")) {
             while (resultSet.next()) {
                 Subject Subject = buildObject(resultSet);
                 SubjectList.add(Subject);
@@ -49,7 +50,8 @@ public class SubjectRepositoryImp implements Repository<SubjectDto> {
     public SubjectDto byId(Long id) {
         Subject Subject = null;
         try (PreparedStatement preparedStatement = getConnection()
-                .prepareStatement("SELECT")) {
+                .prepareStatement("SELECT subject.name, teachers.name, teachers.email FROM subject INNER JOIN " +
+                        "teachers on subject.id_teacher=teachers.id_teacher WHERE subject.id_subject = ?")) {
             preparedStatement.setLong(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {

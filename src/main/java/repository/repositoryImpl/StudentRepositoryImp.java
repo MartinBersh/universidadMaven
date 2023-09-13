@@ -43,7 +43,7 @@ public class StudentRepositoryImp implements Repository<StudentDto> {
     public StudentDto byId(Long id) {
         Student student = null;
         try (PreparedStatement preparedStatement = getConnection()
-                .prepareStatement("SELECT ")) {
+                .prepareStatement("SELECT * FROM student WHERE id_student=?")) {
             preparedStatement.setLong(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {

@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc2e1fc-be7e-4151-8861-52d4b61e0ccc" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Grades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapping/dto/GradesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapping/dto/GradesDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapping/mappers/GradesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapping/mappers/GradesMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/GradesRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/GradesRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/StudentRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/StudentRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/SubjectRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/SubjectRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/TeacherRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/TeacherRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1694003104666" duration="5048000" />
       <workItem from="1694434209921" duration="5837000" />
       <workItem from="1694553130418" duration="8639000" />
-      <workItem from="1694606730648" duration="2710000" />
+      <workItem from="1694606730648" duration="4640000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1692195000769</created>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694607285964</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1694609625283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694609625283</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -56,8 +56,8 @@ public class GradesRepositoryImp implements Repository<GradesDto> {
              ResultSet resultSet = statement.executeQuery("SELECT student.id_student ,student.name, student.email," +
                      " student.career, student.semester, subject.name, teachers.name, teachers.email, grades.corte FROM" +
                      " grades INNER JOIN student on grades.id_student=student.id_student INNER JOIN subject on " +
-                     "grades.id_subject=subject.id_subject inner join teachers " +
-                     "on subject.id_teacher=teachers.id_teacher;")) {
+                     "grades.id_subject=subject.id_subject inner join teachers on " +
+                     "subject.id_teacher=teachers.id_teacher;")) {
             while (resultSet.next()) {
                 Grades grades = buildObject(resultSet);
                 gradesList.add(grades);
