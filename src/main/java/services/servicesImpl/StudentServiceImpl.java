@@ -1,16 +1,17 @@
-package repository.repositoryImpl;
+package services.servicesImpl;
 
 import org.example.conexion.ConexionDB;
 import org.example.domain.Student;
 import org.example.mapping.dto.StudentDto;
 import org.example.mapping.mappers.StudentMapper;
 import repository.Repository;
+import services.StudentService;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentRepositoryImp implements Repository<StudentDto> {
+public class StudentServiceImpl implements StudentService {
     private Connection getConnection() throws SQLException {
         return ConexionDB.getInstance();
     }

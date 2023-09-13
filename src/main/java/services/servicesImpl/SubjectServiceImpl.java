@@ -1,4 +1,4 @@
-package repository.repositoryImpl;
+package services.servicesImpl;
 
 import org.example.conexion.ConexionDB;
 import org.example.domain.Subject;
@@ -6,12 +6,13 @@ import org.example.domain.Teacher;
 import org.example.mapping.dto.SubjectDto;
 import org.example.mapping.mappers.SubjectMapper;
 import repository.Repository;
+import services.SubjectService;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SubjectRepositoryImp implements Repository<SubjectDto> {
+public class SubjectServiceImpl implements SubjectService {
     private Connection getConnection() throws SQLException {
         return ConexionDB.getInstance();
     }

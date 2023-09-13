@@ -1,16 +1,16 @@
-package repository.repositoryImpl;
+package services.servicesImpl;
 
 import org.example.conexion.ConexionDB;
 import org.example.domain.Teacher;
 import org.example.mapping.dto.TeacherDto;
 import org.example.mapping.mappers.TeacherMapper;
-import repository.Repository;
+import services.TeacherService;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TeacherRepositoryImpl implements Repository<TeacherDto> {
+public class TeacherServiceImpl implements TeacherService {
     private Connection getConnection() throws SQLException {
         return ConexionDB.getInstance();
     }
@@ -88,4 +88,3 @@ public class TeacherRepositoryImpl implements Repository<TeacherDto> {
         }
     }
 }
-
