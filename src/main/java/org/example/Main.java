@@ -16,7 +16,7 @@ public class Main {
             System.out.println("docentes: ");
             while (resultSet.next()) {
 
-                System.out.print("id: "+resultSet.getInt("id"));
+                System.out.print("id_Grades: "+resultSet.getInt("id"));
                 System.out.print("\n");
                 System.out.print(resultSet.getString("nombre"));
                 System.out.print("\n");

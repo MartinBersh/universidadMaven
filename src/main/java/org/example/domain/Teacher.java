@@ -8,8 +8,8 @@ import lombok.*;
 @ToString
 @Builder
 
-public class Docentes{
-        public long id;
-        public String nombre;
-        public String correo;
+public class Teacher {
+        private long id_Teacher;
+        private String name;
+        private String email;
 }
