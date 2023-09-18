@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc2e1fc-be7e-4151-8861-52d4b61e0ccc" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Grades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapping/dto/GradesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapping/dto/GradesDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapping/mappers/GradesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapping/mappers/GradesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/GradesRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/repositoryImpl/GradesRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +61,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="universidadMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694607285964</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1695040472875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695040472875</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit">
+      <created>1695040483602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695040483602</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
